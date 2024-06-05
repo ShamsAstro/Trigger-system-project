@@ -24,7 +24,7 @@ simulated_sig= np.array([])
 
 def display_stats(events, t_axis, threshold):
     print("plot n°: ", t_axis[-1] // 200)
-    print("Last events: ",  list(events[]))
+    print("Last events: ",  list(events[-5:]))
     print("Number of events: ", len(events))
     print("--------------------------------------------------------")
 
