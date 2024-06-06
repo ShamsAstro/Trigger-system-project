@@ -77,6 +77,6 @@ while True:
             signal = signal[200:]
             simulated_sig = simulated_sig[200:]
             counter-=200
-
+        print(counter, wave_count, len(t_axis), len(signal), len(simulated_sig))
         time.sleep(0.5)
 
