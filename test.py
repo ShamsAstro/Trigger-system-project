@@ -1,7 +1,14 @@
 import numpy as np
 
-markers=[True, 0, True]
-abs=np.array([10,15,20])
-
-
-print(abs[markers])
+hi=np.array([1,2])
+def do_this(li,a):
+    if a==6:
+        return np.append(li,8)
+    else:
+        return li
+print(hi)
+hi=do_this(hi, 7)
+print(hi)
+hi=do_this(hi,6)
+print(hi)
+print(np.linspace(0,10,11))
